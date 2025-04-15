@@ -19,5 +19,4 @@ def ingrese_numero():
         if numero < 0:
             raise NumeroDebeSerPositivo("El número debe ser positivo")
         return numero
-    except ValueError:
-        raise ValueError("La entrada debe ser un número válido") 
+    
